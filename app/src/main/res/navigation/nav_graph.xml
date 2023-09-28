@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/home">
+
+    <fragment
+        android:id="@+id/home"
+        android:name="com.knackpark.bottonavigationviewpager.AFragment"
+        android:label="fragment_a"
+        tools:layout="@layout/fragment_a" />
+    <fragment
+        android:id="@+id/accessibility"
+        android:name="com.knackpark.bottonavigationviewpager.BFragment"
+        android:label="fragment_b"
+        tools:layout="@layout/fragment_b" />
+    <fragment
+        android:id="@+id/add"
+        android:name="com.knackpark.bottonavigationviewpager.CFragment"
+        android:label="fragment_c"
+        tools:layout="@layout/fragment_c" />
+    <fragment
+        android:id="@+id/dark"
+        android:name="com.knackpark.bottonavigationviewpager.DFragment"
+        android:label="fragment_d"
+        tools:layout="@layout/fragment_d" />
+    <fragment
+        android:id="@+id/profile"
+        android:name="com.knackpark.bottonavigationviewpager.EFragment"
+        android:label="fragment_e"
+        tools:layout="@layout/fragment_e" />
+</navigation>
